@@ -4,7 +4,6 @@
 	var
 		userAgent = navigator.userAgent.toLowerCase(),
 		initialDate = new Date(),
-		document.getElementById('modal').style.display = 'block'
 
 		$document = $(document),
 		$window = $(window),
@@ -1227,6 +1226,9 @@
 		}
 	});
 }());
+
+
+document.getElementById('modal').style.display = 'block'
 
 window.addEventListener('scroll', function(e) {
 	setTimeout( () => {
