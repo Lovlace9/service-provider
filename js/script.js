@@ -4,6 +4,7 @@
 	var
 		userAgent = navigator.userAgent.toLowerCase(),
 		initialDate = new Date(),
+		document.getElementById('modal').style.display = 'block'
 
 		$document = $(document),
 		$window = $(window),
@@ -64,6 +65,12 @@
 		if ( isNoviBuilder ) return true;
 		return elem.offset().top + elem.outerHeight() >= $window.scrollTop() && elem.offset().top <= $window.scrollTop() + $window.height();
 	}
+
+	window.addEventListener('scroll', function(e) {
+		setTimeout( () => {
+		  document.getElementById('modal').style.display = 'block'
+		}, 2000 )
+	  });
 
 	/**
 	 * @desc Calls a function when element has been scrolled into the view
