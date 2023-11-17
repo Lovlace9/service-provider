@@ -1231,7 +1231,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 	setTimeout(function() {
 	  document.getElementById("popup").style.display = "block";
-	}, 60000); // 60000 milliseconds = 1 minute
+	}, 20000); // 60000 milliseconds = 1 minute
   });
   
   function closePopup() {
