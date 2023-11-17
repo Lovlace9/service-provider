@@ -1228,10 +1228,18 @@
 }());
 
 
-document.getElementById('modal').style.display = 'block'
-
-window.addEventListener('scroll', function(e) {
-	setTimeout( () => {
-	  document.getElementById('modal').style.display = 'block'
-	}, 2000 )
-});
+document.addEventListener("DOMContentLoaded", function() {
+	setTimeout(function() {
+	  document.getElementById("popup").style.display = "block";
+	}, 60000); // 60000 milliseconds = 1 minute
+  });
+  
+  function closePopup() {
+	document.getElementById("popup").style.display = "none";
+  }
+  
+  function applyFunction() {
+	// Fonction à exécuter lors du clic sur le bouton "Appliquer"
+	alert("Action appliquée !");
+	closePopup();
+}

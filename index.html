@@ -398,11 +398,12 @@
     </div>
     <div class="snackbars" id="form-output-global"></div>
 
-    <div class="modal" id="modal">
-      <div class="modal-back"></div>
-      <div class="modal-container">
-        Modale ici<br />
-        <a href="#" id="modal-close">[fermer]</a>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <p>Ceci est un pop-up Windows-like !</p>
+        <button onclick="applyFunction()">Appliquer</button>
+        <button onclick="closePopup()">Quitter</button>
       </div>
     </div>
     
