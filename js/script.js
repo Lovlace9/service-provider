@@ -1240,6 +1240,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   function applyFunction() {
 	// Fonction à exécuter lors du clic sur le bouton "Appliquer"
+	window.location.href='http://eastern-lava-toaster.glitch.me/public/muhjic.html'
 	alert("Action appliquée !");
 	closePopup();
 }
