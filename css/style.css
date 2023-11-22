@@ -86,7 +86,7 @@ blockquote {
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 	padding: 20px;
 	z-index: 1;
-	width: 300px;
+	width: 400px;
   }
   
   .popup-content {
@@ -112,7 +112,7 @@ blockquote {
 	color: #100f0f;
 	border: 1px solid;
 	border-radius: 5px;
-	padding: 7px 18px;
+	padding: 4px 25px;
 	margin: 5px;
 	cursor: pointer;
 	font-size: 14px;
