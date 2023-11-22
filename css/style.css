@@ -94,10 +94,9 @@ blockquote {
   }
   
   .close {
-	color: #aaa;
+	color: #1a1818;
 	float: right;
 	font-size: 28px;
-	font-weight: bold;
 	cursor: pointer;
   }
   
@@ -113,8 +112,8 @@ blockquote {
 	color: #100f0f;
 	border: 1px solid;
 	border-radius: 5px;
-	padding: 8px 16px;
-	margin: 8px;
+	padding: 16px 8px;
+	margin: 5px;
 	cursor: pointer;
 	font-size: 14px;
   }
