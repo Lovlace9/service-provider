@@ -109,9 +109,10 @@ blockquote {
   }
   
   .popup button {
-	background-color: #0078d4;
-	color: #fff;
-	border: none;
+	background-color: #f1f3f5;
+	color: #100f0f;
+	border: 1px solid;
+	border-radius: 5px;
 	padding: 8px 16px;
 	margin: 8px;
 	cursor: pointer;
@@ -119,7 +120,7 @@ blockquote {
   }
   
   .popup button:hover {
-	background-color: #005a9e;
+	border: 1px solid #005a9e;
   }
 
 
