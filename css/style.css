@@ -99,6 +99,7 @@ svg path, svg circle{
 	justify-content: space-between;
 	padding: 0 7px;
 	font-size: 15px;
+	color: black;
 }
 .popup_header svg{
 	width: 15px;
@@ -144,6 +145,7 @@ svg path, svg circle{
 	height: 45px;
 	background-color: #eee;
 	padding: 0 7px;
+	color: black;
 }
 .popup_footer button{
 	width: 85px;
