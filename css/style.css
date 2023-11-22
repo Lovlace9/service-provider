@@ -95,6 +95,7 @@ blockquote {
   
   .close {
 	color: #1a1818;
+	margin-top: -20px;
 	float: right;
 	font-size: 28px;
 	cursor: pointer;
