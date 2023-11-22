@@ -89,6 +89,7 @@ svg path, svg circle{
 	border-radius: 1px;
 	user-select: none;
 	font-family: Arial, Helvetica, sans-serif;
+	z-index: 1;
 }
 .popup_header{
 	height: 35px;
